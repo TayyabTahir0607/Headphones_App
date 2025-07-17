@@ -1,0 +1,24 @@
+.message {
+    background: #d4edda;
+    color: #155724;
+   padding: 1rem;
+    border-radius: 8px;
+    margin-top: 10px;
+    position: fixed;
+    top: 50rem;  
+    right: 50rem; 
+    z-index: 1000;
+    
+    animation: fadeInOut 0.1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInOut {
+    0%   { opacity: 0;  }
+    10%  { opacity: 1;  }
+    90%  { opacity: 1; }
+    100% { opacity: 0;  }
+    90%  { opacity: 1; }
+    10%  { opacity: 1;  }
+    0%   { opacity: 0;  }
+  
+  }

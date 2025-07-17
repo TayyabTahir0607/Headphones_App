@@ -1,0 +1,322 @@
+.main_cart {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 50px;
+}
+
+.left_cart{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+    padding: 30px;
+    border-radius: 30px;
+    margin-right: 70px;
+    margin-left: 60px;
+}
+
+.right_cart {
+    width: 17%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+    padding: 30px;
+    border-radius: 30px;
+}
+.left_middle{
+    width: 70%;
+}
+.button1 {
+    width: 80%;
+    height: 3.5rem;
+    border-radius: 40px;
+    border-style: none;
+    font-size: 18px;
+    background-color: rgb(248, 67, 67);
+    color: white;
+    transform: scale(0.9);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.button1:hover {
+    background-color: rgb(248, 67, 67);
+    color: white;
+    transform: scale(1);
+}
+h1{
+    width: 100%;
+    text-align: center  ;
+}
+.items{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.subtotal{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.shipping{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.total{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cart_detail{
+    width: 100%;
+}
+.topContainer{
+    width: 100%;
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 340px;
+}
+.topContainer h1{
+    width: 400px;
+    
+}
+.trash{
+    width: 30px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+    cursor: pointer;
+    
+}
+.trashContainer{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.middleContainer{
+    width: 95%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.middleContainer p{
+    font-size: 30px;
+    margin-left: 30px;
+    
+}
+.itemsCard{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.image{
+    width:5.5rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_bin{
+    width: 50px;
+    height: 50px; 
+    cursor: pointer;
+}
+.image img{
+    object-fit: contain;
+    width: 4rem;
+    height: 4.5rem;
+}
+.countContainer{
+    width: 130px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countContainer button{
+    width: 30px;
+    height :30px;
+    font-size: 18px;
+
+}
+.counting{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 250px;
+    text-align: center;
+    margin-right: 50;
+}
+.price{
+    margin-right: 20px;
+}
+button{
+    border-radius: 50%;
+    border-style: none;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+button:hover{
+    background-color:  rgb(248, 67, 67);
+    color: white;
+    
+}
+@media (max-width: 1200px) {
+    .main_cart {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .left_cart {
+      width: 90%;
+      margin: 0;
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+    .right_cart {
+        width: 55%;
+        margin: 0;
+        margin-bottom: 30px;
+        padding: 20px;
+      }
+  
+    .topContainer {
+      margin-left: 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .topContainer h1 {
+      font-size: 26px;
+    }
+  
+    .middleContainer {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .middleContainer p {
+      font-size: 20px;
+      margin-left: 0;
+    }
+  
+    .itemsCard {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      height: auto;
+      gap: 10px;
+    }
+  
+    .title {
+      width: 100%;
+      font-size: 18px;
+      margin-right: 0;
+    }
+  
+    .price {
+      margin-right: 0;
+      font-size: 18px;
+    }
+  
+    .countContainer {
+      gap: 10px;
+    }
+  
+    .countContainer button {
+      width: 28px;
+      height: 28px;
+      font-size: 16px;
+    }
+  
+    .counting {
+      width: 25px;
+      font-size: 16px;
+    }
+  
+    .cart_detail,
+    .items,
+    .subtotal,
+    .shipping,
+    .total {
+      font-size: 18px;
+    }
+  
+    .button1 {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    .trash {
+      font-size: 20px;
+    }
+  
+    .trashContainer {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .topContainer h1 {
+      font-size: 22px;
+    }
+  
+    .middleContainer p,
+    .title,
+    .price,
+    .cart_detail,
+    .subtotal,
+    .shipping,
+    .total {
+      font-size: 16px;
+    }
+  
+    .button1 {
+      font-size: 15px;
+      height: 3rem;
+    }
+  
+    .countContainer button {
+      width: 26px;
+      height: 26px;
+      font-size: 14px;
+    }
+  
+    .counting {
+      font-size: 14px;
+    }
+  }
+  

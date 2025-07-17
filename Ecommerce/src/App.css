@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottomComp {
+    position: relative;
+}
+
+.topComp {
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 32rem;
+    z-index: 100;
+}
+
+.incOpacity {
+    opacity: 20%;
+}
